@@ -1,0 +1,25 @@
+/* 
+Selectores CSS
+* Selectores simples::after
+    *Selectores Elementales.
+    *Selectores de Atributo.
+*Selectores Compuestos:
+    *Selectores AZgrupados.
+    *Selectores Combinadores.
+    *Pseudo Clases - Pseudoelementales
+*/
+*{
+    background-color: bisque;
+}
+h1{
+    background-color: blanchedalmond;
+}
+p{
+    background-color: darkgrey;
+}
+ul{ 
+    background-color: darkgoldenrod;
+}
+li{ 
+    background-color: darkturquoise;
+}

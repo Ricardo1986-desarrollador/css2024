@@ -1,0 +1,71 @@
+/* Margin: Es la propiedad que nos permite generar espacio entre elementos
+
+Es un shorthand (propiedad abreviada) que controla los 4 lados a los que van adar margenes.
+
+margin-top: Margen superior
+margin-right: margen derecho
+margin-bottom: margen inferior
+margin-left: margen izquierdo
+
+Admite hasta 4 valores que van en orden de las agujas del reloj.
+
+4 valores -> margin: top right bottom left;
+3 valores -> margin: top left / right bottom;
+2 valores -> margin: top/ bottom left/ right;
+1 valor -> margin: top/ right/ left/ bottom;
+*/
+body{
+    background-color: blanchedalmond;
+}
+.title{
+    background-color: blue;
+    width: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 125px;
+    margin-right: 180px;
+}
+.title-2{
+    background-color: blue;
+    width: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.linea{
+    background-color:blueviolet;
+    width: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bloque{
+    background-color: blueviolet;
+    width: 150px;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+.linea2{
+    background-color: coral;
+    width: 125px;
+    margin-right: 125px;
+    margin-right: 125px;
+}
+.bloque2{
+    background-color: aqua;
+    width: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 125px;
+    margin-right: auto;
+}
+.text{
+    background-color: darkgreen;
+    width: 200px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    margin-left: 125px;
+    margin-right: 125px;
+}

@@ -1,0 +1,16 @@
+/* 
+Google fonts
+
+-> Las fuentes desde un servidor remoto, son fuentes que se encuentran en un servidor y que nosotros descargamos para su uso, la más famosa es Google fonts.
+
+->Siempre que utilicemos fuentes no genéricas, debemos poner fuentes genericas de fallback(respaldo)
+*/
+
+body{
+    background-color: #333333;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: weight;
+}

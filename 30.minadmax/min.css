@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    margin:0;
+    color: coral;
+    text-align: left;
+}
+.text{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    width: 4rem;
+    height: 1rem;
+}
+.text1{
+    position: relative;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+    width: 4rem;
+    height: 1rem;
+}

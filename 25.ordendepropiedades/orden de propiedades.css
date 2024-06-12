@@ -1,0 +1,92 @@
+/* 
+Orden de propiedades.
+
+Ordenar las propiedades es sumamente importante.
+
+No existe ninguna norma ni especificación como hacerlo, para la mayoria de los expertos coinciden en las mismos puntos.
+
+1-> Propiedades de posicionamiento.
+2-> Propiedades del box model.
+3-> Propiedades de texto.
+4-> Propiedades visuales (colores, bordes, background)
+5-> El resto.
+*/
+body{
+    /* Position */
+    position:relative;
+    top:0;
+    left:0;
+
+    /* Box Model */
+    display:block;
+    width: 300px;
+    height: 600px;
+    padding:10px;
+    margin:10px;
+
+    /* Text */
+    font-size:16px;
+    text-align:center;
+
+    /* Visual */
+    color: blue;
+    border:2px;
+    border-radius:10px;
+
+    /* Otros */
+    opacity:1;
+}
+.box{
+    position: relative;
+    display:block;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    border-radius: 30px;
+    border: 2px dashed blue;
+    box-shadow: inset 5px 5px 5px blue, inset -5px -5px 5px red;
+}
+.box-1{
+    background-color: coral;
+    position: relative;
+    top: 100px;
+    left:200px;
+}
+.box-2{
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    left:150px
+}
+.box-3{
+    background-color: chocolate;
+    position: relative;
+}
+.box-4{
+    background-color: goldenrod;
+    position: relative;
+    top:30px;
+    left: 250px;
+}
+.box-5{
+    background-color: indianred;
+    position: relative;
+    top: 30px;
+    left:125px;
+}
+.box-6{
+    background-color: indigo;
+    position:relative;
+    top: 30px;
+    left: 98px;
+}
+.container{
+    background-color: #ccc;
+    position: relative;
+}
+.title-2{
+    background-color: aqua;
+    position: relative;
+}

@@ -1,0 +1,16 @@
+/* 
+*Selectores Compuestos: son aquellos que requieren mas de una palabra o mas de una palbra y un simbolo 
+    *Selectores Agrupados.: Se agrupan los selectores separados por comas y se escribe el estilo una sola vez 
+    *Selectores Combinadores.
+        *selector descendiente -> Selecciona un elemento dentro de otro.
+        *selector de hermano siguiente + -> selecciona al hermano siguiente adyacente.
+        *selector de hermanos siguientes ~ -> seleccciona a todos los hermanos directos.
+        *selector de hijo directo > -> selecciona SOLO los hijos directos.
+    *Pseudo Clases - Pseudoelementales
+    */
+.text,
+.text-2,
+.text-3,
+.text-4{
+    background-color: steelblue;
+}

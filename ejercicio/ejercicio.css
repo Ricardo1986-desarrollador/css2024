@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-left:30px;
+    background-color: black;
+    color:#fff;
+    padding-top: 300px;
+}
+.header1{ 
+    background-color: aqua;   
+    color: black;
+    text-align: left;
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    top:0;
+}

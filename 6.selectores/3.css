@@ -1,0 +1,34 @@
+/* 
+Selectores CSS
+* Selectores simples::after
+    *Selectores Elementales.
+    *Selectores de Atributo.
+    [atributo]
+    [atributo]
+    [atributo=valor]
+    [atributo^=valor]
+    [atributo*=valor]
+    [atributo$=valor]
+    [atributo|=valor]
+*Selectores Compuestos:
+    *Selectores Agrupados.
+    *Selectores Combinadores.
+    *Pseudo Clases - Pseudoelementales */
+    [href]{
+        background-color: mediumorchid;
+    }
+    [href="https://google.com"]{
+        background-color: orangered;
+    }
+    [href^=color]{
+        background-color: red;
+    }
+    [href*=modo]{
+        background-color: green;
+    }
+    [href$=rojo]{
+        background-color: steelblue;
+    }
+    [lang|=en]{
+        background-color: magenta;
+    }

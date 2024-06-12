@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #333;
+    color: white;
+    margin:0;
+}
+.ban{
+    width: 100%;
+    height: 50px;
+}
+.text1{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    background-color: antiquewhite;
+    color: black;
+    left: 600px;
+    text-align: center;
+}
+.text2{
+    position:relative;
+    width: 60px;
+    height: 30px;
+    background-color: blueviolet;
+    color: black;
+    left: 450px;
+    bottom:30px;
+    text-align: center;
+}
+.text3{
+    position:relative;
+    width: 60px;
+    height: 30px;
+    background-color: blue;
+    color: black;
+    left: 300px;
+    bottom: 60px;
+    text-align: center;
+}
+.text4{
+    position:relative;
+    width: 60px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    left: 150px;
+    bottom: 90px;
+    text-align: center;
+
+}

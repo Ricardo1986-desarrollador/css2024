@@ -1,0 +1,99 @@
+/* 
+Brder Radius (Elipse).
+
+Si recibe dos valores se dibujara una elipse en el vertice que especifiquemos.(por lado)
+
+border-top-righht-radius: 50px 100px;
+
+elipse con 50px en el radio de X y 100px en el radio de Y.
+
+sSi utilizamos el border radius como un shorthand hay diferencias entre si queremos  dar un valor a cada lado (circulo) y dos valores para una (elipse).
+*/
+body{
+    background-color: aqua;
+    color: white;
+    margin: 0;
+}
+.title{
+    background-color: blueviolet;
+    color: red;
+    text-align: center;
+    width:200px;
+    height: 200px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+}
+.block{
+    background-color: violet;
+    text-align: center;
+    color: white;
+    width: 300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 50px 100px;
+}
+.box{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:50px 100px 150px 200px /100px 150px 200px 250px;  
+}
+.box2{
+    background-color: pink;
+    color: black;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 50px 100px;
+    border-top-right-radius: 100px 150px;
+    border-bottom-right-radius: 150px 200px;
+    border-bottom-left-radius: 200px 250px;
+}
+.box3{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right:auto;
+    border-top-left-radius: 25px 50px;
+    border-top-right-radius:50px 75px;
+    border-bottom-right-radius: 100px 125px;
+    border-bottom-left-radius: 150px 175px;
+}
+.box4{
+    background-color: green;
+    color: black;
+    text-align: center;
+    width: 175px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 150px 175px;
+    border-top-right-radius: 175px 200px;
+    border-bottom-right-radius: 200px 225px;
+    border-bottom-left-radius: 225px 250px;
+}
+.text{
+    background-color: blue;
+    color: black;
+    text-align: justify;
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right:auto;
+    border-top-left-radius:150px 175px;
+    border-top-right-radius:200px 250px;
+    border-bottom-right-radius: 250px 300px;
+    border-bottom-left-radius:250px 350px;
+}

@@ -1,0 +1,47 @@
+/* 
+Text-align -> Es la propiedad que nos permite alinear horizontalmente el contenido de un elemento de bloque siempre que el contenido NO TENGA UN ANCHO DECLARADO.
+
+Acepta 4 posibles valores:
+    text-align:left; -> Alinea el contenido a la izquierda.
+    text-align:right; -> Alinea el contenido a la derecha.
+    text-align:center; -> Alinea el contenido al centro.
+    text-align:justfy; -> Alinea el contenido de forma justicada. No es recomendable usarlo.
+*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+.text{
+    text-align: justify;
+}
+.box{
+    background-color: #666;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid coral;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.link{
+    background-color: #666;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    border: 20px solid red;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-container{
+    border: 1px dashed blue;
+    text-align: center;
+}

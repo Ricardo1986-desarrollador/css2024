@@ -1,0 +1,73 @@
+/* 
+Position Absolute::after
+
+Absolute-> El elemento perdera sus medidas y su espacio reservado, si lo movemos usara el elemento posicionado contenedor como referencia, si no tiene ninguno, usará el elemento HTML de referencia.
+*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    margin:0;
+    color: white;
+}
+.content{
+    background-color: aqua;
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    margin-left:500px;
+    margin-top: 100px;
+    position: absolute;
+}
+.box{
+    width: 200px;
+    height: 200px   ;
+    text-align: center;
+    border-radius: 30px;
+}
+.box1{
+    background-color: aquamarine;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.box2{
+    background-color: blue;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.box3{
+    background-color: blueviolet;
+    position:absolute;
+}
+.box4{
+    background-color: green;
+    position:absolute;
+    top:0;
+    right:0;
+}
+.box5{
+    background-color: red;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;   
+}
+.link{
+    background-color: green;
+    width: 200px;
+    color: white;
+    position: absolute;
+    margin-left: 200px;
+}
+.link2{
+    background-color: blueviolet;
+    width: 200px;
+    color: white;
+    margin-left: 300px;
+    position: absolute;
+}

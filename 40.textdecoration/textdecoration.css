@@ -1,0 +1,119 @@
+/* 
+
+Transformaciones de texto
+text-transform: Esta propiedad nos permite hacer transformaciones Esteticas en nuestro texto.
+Admite los valores:
+    none: Nose aplicará ninguna transformación.
+    uppercase:El texto se pondra en mayúsculas.
+    lowercase: El texto se pondra en minúsculas.
+    Capitalize: Transforma la primera letra de cada palabra en mayúscula.
+
+Adornos en el texto:
+text-decoration: Esta propiedad nospermite controlar la linea que podemos poner en los textos.
+Admite los valores: 
+    none: Elimina cualquier línea.
+    underline: Coloca una linea bajo el texto.
+    overlinme: Coloca una linea sobre el texto.
+    line-through: Coloca una linea tachando el texto.   
+
+Text Shadow:
+text-shadow: Funciona exactamente igual a box-shadow con la unica diferencia de que admite el valor inset ni en la expansion de la sombra.
+Los valores que admite son:
+    offsetX: desplazamiento horizontal.
+    offsetY: desplazamiento vertical.
+    blur: Desenfoque.
+    Color: color, por defecto coge el del texto por herencia.
+*/
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+.text1{
+    text-transform: none;
+    color: rgb(0, 0, 255);
+}
+.head1{
+    text-shadow: 5px 5px 1px black;
+}
+.text2{
+    text-transform: lowercase;
+    color: rgb(255, 0, 0);
+}
+.head2{
+    text-shadow: 5px 5px 1px black;
+}
+.text3{
+    text-transform: uppercase;
+    color: rgb(0, 255, 0);
+}
+.head3{
+    text-shadow: 5px 5px 1px black;
+}
+.text4{
+    text-transform: capitalize;
+    color: rgb(128, 128, 128);
+}
+.head4{
+    text-shadow: 5px 5px 1px black;
+}
+.text5{
+    text-decoration: none;
+    color: hsl(0, 100%, 50%);
+}
+.head5{
+    text-shadow: 5px 5px 1px black;
+}
+.text6{
+    text-decoration: underline;
+    color: hsl(60, 100%, 50%);
+}
+.head6{
+    text-shadow: 5px 5px 1px black;
+}
+.text7{
+    text-decoration: overline;
+    color: hsl(120, 100%, 50%);
+}
+.head7{
+    text-shadow: 5px 5px 1px black;
+}
+.text8{
+    text-decoration: line-through;
+    color: hsl(180, 100%, 50%);
+}
+.head8{
+    text-shadow: 5px 5px 1px black;
+}
+.text9{
+    text-shadow: 5px 5px 0 red;
+    color: #fff;
+}
+.head9{
+    text-shadow: 5px 5px 1px black;
+}
+.text10{
+    text-shadow: 0px 5px 2px blue;
+    color: #000;
+}
+.head10{
+    text-shadow: 5px 5px 1px black;
+}
+.text11{
+    text-shadow:5px 0px 5px green;
+    color: #f00;
+}
+.head11{
+    text-shadow: 5px 5px 1px black;
+    color: #f00;
+}
+.text12{
+    text-shadow: -5px -5px 10px red;
+    color: #0f0;
+}
+.head12{
+    text-shadow: 5px 5px 1px black;
+}

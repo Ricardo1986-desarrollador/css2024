@@ -1,0 +1,102 @@
+/* 
+Hexadecimal->
+    La notación hexadecimal es la más común en desarrollo web, se basa en los mismos principios que el RGB pero escrito en notación hexadecimal.
+
+    El sistema hexadecimal es un sistema basado en 16 valores que va del 0 al 15, Utiliza los digitos del 0 al 9 y las letras de la A a la F.
+
+    En este tipo de notación también necesitamos 256 valores.
+
+    Se compone de 16 caracteres en parejas ya que 16*16=256
+    0 1 2 3 4 5 6 7 8 9 A B C D E F 
+    0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+    Para indicar que vamos a usar notación hexadecimal debemos usar el simbolo de hash/ almohadilla # y a continuación usaremos esta notación por parejas.
+
+    #RRGGBB
+    Cuando una parteja usa el mismo valor se puede omitir el segundo valor, siempre que se haga en las tres parejas.
+
+    rgb(255,255,255) -> #FFFFFF -> #FFF
+    rgb(0,0,0,) -> #000000 -> #000
+
+    También tenemos la opción de usar transparencias en hexadecimal añadiendo un cuarto canal que sigue las mismas normas.
+
+*/
+body{
+    background-color: #fff;
+    color: orangered;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: #aaaaaa;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: #FF0000;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: #00FF00;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box6{
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    box-shadow: 5px 5px 5px #0008;    margin-bottom:50px;
+}
+.box7{
+    width: 200px;
+    height: 200px;
+    background-color: #F00;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box8{
+    width: 200px;
+    height: 200px;
+    background-color: #0F0;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box9{
+    width: 200px;
+    height: 200px;
+    background-color: #00F;
+    box-shadow: 5px 5px 5px #0008;
+}
+.box10{
+    width: 200px;
+    height: 200px;
+    background-color: #808080;
+    box-shadow: 5px 5px 5px #0008;
+    margin-bottom:50px;
+}
+.box11{
+    width: 200px;
+    height: 200px;
+    background-color: #F00;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.533);    margin-bottom:50px;
+    
+}

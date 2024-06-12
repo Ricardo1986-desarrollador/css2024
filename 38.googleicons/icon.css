@@ -1,0 +1,30 @@
+/* 
+Icons=Material+
+
+Siempre que utilicemos fuentes no genericas, debemos poner fuentes genericas de fallback (respaldo)
+
+Google Icons
+    Material Icons
+    https://fonts.googleapis.com/css?family+Icons
+    Material Icons Outlined
+    https://fonts.googleapis.com/css?family+Icons+Outlined
+    Material Icons Two Tone
+    https://fonts.googleapis.com/css?family+Icons+Two+Tone
+    Material Icons Rounded
+    https://fonts.googleapis.com/css?family+Icons+Round
+    Material Icons Sharp
+    https://fonts.googleapis.com/css?family+Icons+sharp
+
+Nota: Si vas a usar una gran cantidad de iconos en tu web compensa usar la libreria remota
+Nota2: Si solo usaras unos pocos es mejor descargarlos en formato SVG y utilizarlos como imagenes
+
+
+*/
+body{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+.icon{
+    color:red;
+    font-size: 2rem;
+}

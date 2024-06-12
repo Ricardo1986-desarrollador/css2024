@@ -1,0 +1,33 @@
+body {
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+.header {
+    background: red;
+    color: white;
+    height: 50px;
+}
+.menu {
+    background-color: blue;
+    height: 50px;
+}
+.title {
+    background-color: green;
+    width: 300px;
+}
+.block {
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.lis { 
+    background-color: pink;
+    margin-left: 150px;
+    margin-right: 150px;
+}

@@ -1,0 +1,64 @@
+/* 
+Medidas Absolutas y Relativas.
+
+-> Ls medidas absolutas NO C::afterAMBIAN y siempre mantendrán su tamaño independientemente del dispositivo o la interacción del usuario:
+
+-> Lo más usado es px (pixel) cuya medida es de 1/96 de 1in, pero existen otras como :
+
+->cm (centimetros) -> 1cm = 96 px / 2.54.
+-> mm (milimetros) -> 1mm = 1/10 de 1cm.
+-> q (cuarto de milimetro) -> 1q = 1/40 de 1cm.
+-> in (inches pulgadas) -> 1in = 2.54 cm =96 px.
+-> pc (picas) -> 1pc = 1/16 de 1in.
+-> pt (puntos) -> 1pt = 1/72 de 1in.
+
+-> Las medidas relativas SIEMPRE dependen de un contexto son las que se recomienda utilizar en la gran mayoria de ocaciones porque nos van a permitir que todos los elementos escalen proporcionalmente.
+
+->  Los más usados son em, rem, %, vw , vh, vmin, vmax. aunque tenemos otros como: 
+
+-> ex -> Altura x de la fuente del elemento.
+
+-> ch -> La medida del ancho del glifo "o" de la letra del elemento.
+
+-> Lh -> Altura de la linea del elemento.
+
+-> glifo -> es el tamaño de las imagenes.
+
+-> lh -> Altura de la fuente.
+
+-> rem -> Corresponde a la meida de la "m" de la raiz del documento (html).
+
+-> em -> Corresponde a la medida de la "m" del contexto donde nos encontramos.
+
+El estandar del tamaño de la fuente por defecto en la raiz del documento es 16px, y NO ES RECOMENDABLE MPDOFICARLO.
+
+NOTA -> Tanto "em" como "rem" se calcula en base a la propiedad font-size - (tamaño de fuente)
+
+ejemplo: 16px = 1rem.
+ejemplo: 32px = 2rem.
+ejemplo: 48px = 3 rem. (va de 16 en 16)*/
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    background-color: #333;
+    color: lightcoral;
+}
+.title{
+    font-size: 3em;
+    /* font-size: 8rem */
+    margin-bottom: 50px;
+}
+.link{
+    background-color: lightcoral;
+    color:#333;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    
+}
+.relative-width {
+    font-size: 30px;
+    width: 80%;
+}  
